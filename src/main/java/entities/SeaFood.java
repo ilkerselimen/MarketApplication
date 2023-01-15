@@ -4,8 +4,7 @@ import java.util.Date;
 
 public class SeaFood {
 
-    // int productId;
-
+    //  int productId;
     String product;
 
     double price;
@@ -14,10 +13,8 @@ public class SeaFood {
 
     double unitIsStock;
 
-    //Date arrivalDate; // arrival date - urun gelis tarihi
+    Date mfgDate; // Manufacturing Date --> Imalat tarihi
 
-    Date mfgDate; // manufacturing date - imalat tarihi
-
-    Date expDate; // expire date - son kullanma tarihi --> long
-
+    // Date arrivalDate; //Ürün gelis tarihi
+    Date expDate; //Expired Date --> son kullanim tarihi --> long
 }

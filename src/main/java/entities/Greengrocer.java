@@ -23,21 +23,13 @@ import java.util.List;
 public class Greengrocer {
 
     // int productId;
-
 //    String product;
-
     double price;
-
     double lastPrice;
-
     double unitIsStock;
-
     //Date arrivalDate; // arrival date - urun gelis tarihi
-
     Date mfgDate; // manufacturing date - imalat tarihi
-
     Date expDate; // expire date - son kullanma tarihi --> long
-
     List<String> products = new ArrayList<>();
 
     public Greengrocer(double price, double lastPrice, double unitIsStock, Date mfgDate, Date expDate, List<String> products) {
@@ -49,4 +41,3 @@ public class Greengrocer {
         this.products = products;
     }
 }
-
